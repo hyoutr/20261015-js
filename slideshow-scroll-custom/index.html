@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>スライドショー（横スクロール）ーカスタム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>
+                <img src="img/logo_vivant.webp" alt="logo">
+            </h1>
+        </header>
+        <div id="slide">
+            <ul>
+                <li><img src="img/1.png" alt="img1"></li>
+                <li><img src="img/2.jpg" alt="img2"></li>
+                <li><img src="img/3.webp" alt="img3"></li>
+                <li><img src="img/4.jpg" alt="img4"></li>
+            </ul>
+
+            <!-- 左の画像を表示 -->
+            <button id="prevBtn">
+                <img src="img/prev.png" alt="Prev">
+            </button>
+
+            <!-- 右の画像を表示 -->
+            <button id="nextBtn">
+                <img src="img/next.png" alt="Next">
+            </button>
+
+        </div><!--/#slide-->
+    </div><!--#wapper-->
+    <!-- jQuery本体 -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
